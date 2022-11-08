@@ -1,0 +1,59 @@
+Consignas del trabajo:
+1. A partir de la base de datos disponible elige un subconjunto de 5 a 20 indicadores y un
+año de referencia para efectuar tu análisis. Esta será la matriz de datos que utilizarás
+durante todo el examen. Cualquier subconjunto de información es válido, no hay
+elecciones incorrectas. Atención: Verifica que la cantidad de observaciones
+disponibles supere a la cantidad de variables elegidas.
+2. Realiza un breve análisis descriptivo de la información disponible para el conjunto de
+variables y año elegidos. Calcula y describe distintas medidas de variabilidad global de
+los datos.
+3. Calcula la matriz de variancias y covariancias y la matriz de correlaciones muestrales e
+interpreta brevemente sus resultados.
+4. Realiza un análisis de componentes principales utilizando tanto la matriz de variancias
+y covariancias como la matriz de correlaciones. Describe de manera general los
+resultados obtenidos en cada caso y compara los resultados destacando diferencias y/o
+similitudes entre ambos casos. En particular, describe la proporción de variancia
+explicada por cada componente principal. Elije los resultados de uno de estos análisis
+para continuar con la próxima consigna.
+5. Tomando en cuenta las primeras dos componentes principales del análisis elegido en el
+punto anterior calcula los coeficientes de correlación de cada componente principal con
+respecto a cada variable original. Interpreta la representación de las primeras 2
+componentes principales en términos de su correlación con las variables que las
+definen.
+6. Calcula el valor de las primeras 2 componentes principales para cada una de las
+observaciones (países). Realiza un breve análisis de estadística descriptiva de cada una
+de ellas.
+7. Realiza un gráfico biplot para la representación conjunta de filas y columnas (equivalente
+a observaciones y variables) de la matriz de datos y describe los resultados obtenidos
+en términos de la distribución de las observaciones (países) en el subespacio de las
+primeras dos componentes.
+8. Utilizando la representación biplot adecuada calcula una aproximación de dimensión 2
+para la matriz de variancias y covariancias (o matriz de correlaciones, según
+corresponda) original e interpreta los resultados obtenidos.
+Tomando en cuenta las primeras 2 (dos) componentes principales que representaban el
+mayor porcentaje de variancia explicada y que calculaste en los ítems anteriores, resuelve
+los siguientes puntos:
+9. Realiza un análisis de clusters para hallar la jerarquía de agrupación de los países
+considerados en tu matriz de datos, en base a la información de las dos primeras
+componentes principales. Utiliza dos métodos distintos (puedes elegir entre los
+encadenamientos simple, completo, promedio, etc.).
+10. En cada caso realiza una representación gráfica de los resultados obtenidos utilizando
+un dendrograma.
+11. Interpreta los resultados obtenidos tomando en cuenta el gráfico biplot que realizaste
+para resolver las últimas consignas del primer trabajo práctico.
+12. Resume brevemente las principales conclusiones del análisis.
+Por último:
+13. Efectúa un análisis factorial para describir la variabilidad común entre las variables de
+tu matriz de datos. El punto de partida será un modelo con un solo factor.
+14. Estima la matriz de variancias y covariancias que surge del modelo factorial, la cual se
+descompone en variancia común (debido a los factores) y variancia específica. Compara
+estos resultados con respecto a la matriz S de variancias y covariancias muestral.
+15. Repite los dos puntos anteriores agregando un nuevo factor al modelo. Se producen
+cambios en las comunalidades de las variables con respecto al modelo estimado en el
+punto 13? Determina cuál de las dos especificaciones del modelo factorial (m = 1 ó m =
+2) resulta más adecuada para representar la estructura de asociación entre las
+variables. Es posible que en función de las variables y/o países elegidos en tu matriz de
+datos la especificación del modelo factorial con dos factores no sea la óptima. En ese
+caso agrega los comentarios que creas conveniente.
+16. Interpreta brevemente los resultados obtenidos, tomando en cuenta las eventuales
+diferencias y semejanzas con los resultados del cálculo de componentes principales.
